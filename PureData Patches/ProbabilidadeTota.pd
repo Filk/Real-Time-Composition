@@ -1,0 +1,21 @@
+Pd 0.47.1. on aqua
+Tcl/Tk 8.4.19
+------------------------------------------------------------------------------
+{} 4 {------------------ done with main ----------------------
+} {} 3 {Connection from 'pd' to 'pd-gui' on 127.0.0.1:53890
+} {} 3 {Loading plugin: /Applications/Pd-0.47-1.app/Contents/Resources/Scripts/pd_deken.tcl
+} {} 14 {The Pd window filtered 3 lines
+} {} 1 {can't connect signal outlet to control inlet
+} {} 2 {} {} 2 { } {} 2 snapshot {} 2 {
+} .x61ca50 1 {... couldn't create
+} {} 4 {... you might be able to track this down from the Find menu.
+} {} 2 {sigmund~ version 0.07
+} {} 2 {bonk version 1.5
+} {} 2 {pd~ version 0.3
+} .x73b200 1 {conflicting block~ objects in same page
+} .x73b200 1 {conflicting block~ objects in same page
+} .x73b200 1 {conflicting block~ objects in same page
+} .x73b200 1 {conflicting block~ objects in same page
+} .x73b200 1 {conflicting block~ objects in same page
+} .x73b200 1 {conflicting block~ objects in same page
+}
