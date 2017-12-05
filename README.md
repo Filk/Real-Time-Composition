@@ -1,5 +1,5 @@
-# RTC class
-This repository contains patches and all the materials I use to teach about Real Time Composition.
+# RTMAP class
+This repository contains patches and all the materials I use to teach about Real Time Music and Audio Practices.
 
 Lesson 1.
 What is Algorithmic Composition?
@@ -32,13 +32,13 @@ Hello Computers II - meet Pure Data and MaxMSP
 Basic concepts: real time calculations
 Listening: 
 Reading: 
-Patching: histo, prob and anal objects
+Patching: histo, prob and anal objects. Record MIDI files with Pd
 
 Lesson 6.
 Real Time Composition. 
 Listening: Peripatoi (Rui Penha), Joel Chadabe
 Reading: 
-Patching: RTC Library (Karlheinz Essl) - Rhythm Generators; Record MIDI files with Pd
+Patching: RTC Library (Karlheinz Essl) - Rhythm Generators; 
 
 Lesson 7.
 Digital Interactive Systems I 
@@ -54,13 +54,13 @@ Reading:
 Patching: fiddle~, bonk~
 
 Lesson 9.
-Automatic Music Generation 
+Automatic Music Generation I
 Listening: Brian Eno, David Cope
 Reading:
 Patching: 
 
 Lesson 10.
-Automatic Music Generation 
+Automatic Music Generation II
 Listening: 
 Reading:
 Patching:
@@ -83,7 +83,11 @@ Listening:
 Reading: 
 Patching: OSC
 
-Lesson 14 - 15.
+Lesson 14.
+Procedural Audio
+Basic concepts: Physicall Modelling, Layering, Context
+
+Lesson 15.
 Projects
 
 Bibliography:
