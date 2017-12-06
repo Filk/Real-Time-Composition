@@ -1,0 +1,13 @@
+#N canvas 536 266 670 226 10;
+#X msg 130 120 send foo \$1;
+#X floatatom 130 93 0 0 0 0 - - -;
+#X msg 77 48 disconnect;
+#X obj 38 175 netsend;
+#X msg 38 21 connect localhost 3000;
+#X text 187 19 2 press connect message to osc data to another computer.
+Be sure choose the same port in both computers;
+#X text 210 116 3 send data!;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 4 0 3 0;

@@ -1,0 +1,47 @@
+#N canvas 230 69 1028 732 10;
+#X msg 77 48 disconnect;
+#X msg 38 21 connect localhost 3000;
+#X obj 165 201 oscformat;
+#X obj 34 354 netsend -u -b;
+#X obj 165 227 list prepend send;
+#X obj 164 255 list trim;
+#X floatatom 165 115 5 0 0 0 - - -, f 5;
+#X text 187 19 1 press connect message to osc data to another computer.
+Be sure choose the same port in both computers;
+#X text 301 167 2 set the addrpattern (i.e. flag to parse message)
+;
+#X obj 193 143 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X symbolatom 97 116 10 0 0 0 - - -, f 10;
+#X obj 97 94 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 193 167 set fromPureData;
+#X text 202 116 3 send data (this case \, ellipse size);
+#X obj 35 460 netreceive -u -b 4000;
+#X obj 35 491 oscparse;
+#X obj 35 518 route list;
+#X obj 35 546 route toPureData;
+#X text 176 454 1 define port to receive;
+#X text 143 545 2 route messages according to the tag;
+#X obj 35 577 unpack f s;
+#X msg 92 610 set \$1;
+#X floatatom 35 611 5 0 0 0 - - -, f 5;
+#X msg 92 638 ola;
+#X text 109 578 3 if necessary \, unpack osc message;
+#X connect 0 0 3 0;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 3 0;
+#X connect 6 0 2 0;
+#X connect 9 0 12 0;
+#X connect 10 0 2 0;
+#X connect 11 0 10 0;
+#X connect 12 0 2 0;
+#X connect 14 0 15 0;
+#X connect 15 0 16 0;
+#X connect 16 0 17 0;
+#X connect 17 0 20 0;
+#X connect 20 0 22 0;
+#X connect 20 1 21 0;
+#X connect 21 0 23 0;

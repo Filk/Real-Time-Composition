@@ -38,20 +38,20 @@ Lesson 6.
 Real Time Composition. 
 Listening: Peripatoi (Rui Penha), Joel Chadabe
 Reading: 
-Patching: RTC Library (Karlheinz Essl) - Rhythm Generators; 
+Patching: RTC Library (Karlheinz Essl) - Rhythm Generators; Patch Melodic Examples
 
 Lesson 7.
 Digital Interactive Systems I 
 Basic concepts: Interactive vs Reactive
 Listening: Robert Rowe, Pedro Louzeiro
 Reading: Rowe
-Patching: fiddle~, bonk~
+Patching: fiddle~, sigmund~, bonk~
 
 Lesson 8.
 Digital Interactive Systems II 
 Listening: Do Desenho e do Som 3 (Filipe Lopes)
 Reading:
-Patching: fiddle~, bonk~
+Patching: Open Sound Control
 
 Lesson 9.
 Automatic Music Generation I

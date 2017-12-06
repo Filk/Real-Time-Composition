@@ -1,0 +1,10 @@
+#N canvas 536 42 550 194 10;
+#X obj 35 67 netreceive;
+#X msg 35 36 listen 3000;
+#X floatatom 35 135 5 0 0 0 - - -, f 5;
+#X obj 35 101 route foo;
+#X text 136 35 1 press listen message to allow your computer to accept
+incoming osc data;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 3 0 2 0;
